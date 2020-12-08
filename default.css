@@ -1,0 +1,157 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #FFCC33;
+  font-family: 'Quicksand', sans-serif;
+  /* font-size: 1em; */
+  font-weight: 200;
+  color: #000;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p, ol, ul {
+  margin-top: 0;
+}
+
+ol, ul {
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  line-height: 180%;
+}
+
+.button {
+  display: inline-block;
+  padding: 1em 2em 1em 2em;
+  letter-spacing: 0.10em;
+  margin-top: 2em;
+  padding: 1.40em 3em;
+  border: 2px solid #000;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1em;
+  color: #000;
+}
+
+.title {
+  margin-bottom: 3em;
+}
+
+#header {
+  position: relative;
+  padding: 3em 0em;
+}
+
+#menu {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+#menu ul {
+  display: inline-block;
+}
+
+#menu li {
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+#menu li a, #menu li span {
+  padding: 1em 1.5em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #000;
+}
+
+/* #menu li:hover a, #menu li.active a, #menu li.active span {} */
+
+#menu .active a {
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.logo {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8em;
+}
+
+#banner {
+  padding: 3em 0em;
+  text-align: center;
+}
+
+#banner .title h2 {
+  font-size: 4em;
+}
+
+#banner .title .byline {
+  font-size: 2em;
+}
+
+#banner .button {
+  margin-top: 2em;
+  padding: 1.40em 3em;
+  border: 2px solid #000;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background: #FFCC33;
+}
+
+.footer-note {
+  padding: 1em;
+}
+.privacy-wrapper {
+  background-color: #FFF;
+}
+
+.container {
+  padding: 2em;
+}
+
+.content-wrapper ul {
+  list-style-type: disc;
+}
+
+.content {
+  padding-left: 2em;
+}
+
+@media only screen and (max-width: 320px) {
+  /* body {
+    font-size: 2em;
+  }
+
+  #banner .title h2 {
+    font-size: 8em;
+  } */
+}
