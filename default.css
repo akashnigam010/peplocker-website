@@ -7,7 +7,7 @@ body {
   padding: 0px;
   background: #FFCC33;
   font-family: 'Quicksand', sans-serif;
-  /* font-size: 1em; */
+  font-size: 1em;
   font-weight: 200;
   color: #000;
 }
@@ -130,8 +130,9 @@ p {
 .footer-note {
   padding: 1em;
 }
-.privacy-wrapper {
+.wrapper {
   background-color: #FFF;
+  min-height: 75vh;
 }
 
 .container {
@@ -144,14 +145,4 @@ p {
 
 .content {
   padding-left: 2em;
-}
-
-@media only screen and (max-width: 320px) {
-  /* body {
-    font-size: 2em;
-  }
-
-  #banner .title h2 {
-    font-size: 8em;
-  } */
 }
