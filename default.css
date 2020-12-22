@@ -12,6 +12,14 @@ body {
   color: #000;
 }
 
+.colored {
+  background-color: #FFCC33;
+}
+
+.white {
+  background-color: #FFF;
+}
+
 h1, h2, h3 {
   margin: 0;
   padding: 0;
@@ -45,7 +53,6 @@ p {
 }
 
 .title {
-  margin-bottom: 3em;
   padding: 1em;
 }
 
@@ -126,11 +133,13 @@ p {
   bottom: 0;
   width: 100%;
   background: #FFCC33;
+  padding: 2em 0;
 }
 
 .footer-note {
   padding: 1em;
 }
+
 .wrapper {
   background-color: #FFF;
   min-height: 75vh;
@@ -146,4 +155,26 @@ p {
 
 .content {
   padding-left: 2em;
+}
+
+.detail-wrapper {
+  padding: 5em 0;
+}
+
+.detail {
+  padding: 1.5em 2em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+.mid-banner {
+  text-align: center;
+  margin: 3em 0;
+  font-size: 3em;
+  font-weight: bold;
 }
